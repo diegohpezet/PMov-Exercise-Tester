@@ -1,0 +1,26 @@
+{
+  "name": "pmov_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "puppeteer": "^24.4.0",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
